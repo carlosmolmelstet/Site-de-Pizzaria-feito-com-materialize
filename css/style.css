@@ -1,0 +1,417 @@
+body{
+}
+header{
+  background-image: url(../images/bgheader.jpg);
+}
+
+.bg{
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-bottom: 30px;
+}
+.nav-custon{
+  height: 120px;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: none;
+  padding: 0px 100px;
+}
+/*MENU CONTATOS */
+.menu-whats{
+  margin-left: 50px;
+  margin-top: 20px;
+  background-color: #45C554;
+  border-radius: 30px;
+  width: 200px;
+}
+.menu-whats:hover{
+  background-color: #32a040;
+}
+.menu-telefone p:first-child{
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+  text-transform: uppercase;
+  color: #FFC900;
+
+}
+.menu-telefone p:last-child{
+  margin-top: -20px;
+  font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: white;
+}
+.menu-telefone:hover{
+  background-color: rgba(0, 0, 0, 0);
+}
+@media (max-width: 992px) {
+  .menu-contatos{
+    display: none;
+  }
+  .menu-telefone p:last-child{
+    margin-top: -20px;
+    font-family: 'Open Sans', sans-serif;
+      font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: black;
+  }
+
+}
+/*MENU CONTATOS MOBILE*/
+.side-nav{
+  background-image: url(../images/bgmenu.jpg);
+  box-shadow: 7px 0px 5px 0px rgba(0,0,0,0.75);
+
+}
+.side-nav li:first-child{
+  margin-top: 50px;
+}
+.side-nav li a{
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 500;
+}
+.side-nav .menu-whats {
+ 
+  margin-top: 50px;
+}
+.side-nav .menu-whats span {
+  padding-right: 10px;
+  font-size: 20px;
+}
+.side-nav .menu-whats span i {
+  margin-right: 10px;
+
+}
+.side-nav li .menu-whats   {
+  padding-bottom: -40px;
+}
+.side-nav .menu-whats:hover {
+  background-color: #33a642;
+}
+.side-nav .fa-whatsapp{
+  margin-right: 0px;
+}
+
+.button-collapse{
+  margin-top: -40px;
+  color: white;
+  font-size: 50px;
+
+  
+
+}
+
+.navbar-fixed nav{
+  background-color: rgba(0, 0, 0, 0); 
+  box-shadow: none;
+  height: 120px;
+  margin-top: -120px;
+}
+.navbar-fixed nav a{
+  margin-top: 25px;
+}
+
+/*PROMOÇAO*/
+.divpromocao{
+}
+.promobox img{
+  width: 100%;
+  padding: 10px 50px;
+}
+
+.descricao {
+  width: 90%;
+  color: white;
+  margin-top: -20%;
+  margin-left: 5%;
+
+}
+.comprar{
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid white;
+  border-radius: 10px;
+  height: 50px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: -20%;
+}
+.comprar p{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 7px;
+  cursor: pointer;
+}
+@media (max-width: 380px) {
+  .comprar p{
+  
+    font-size: 15px;
+    
+  }
+}
+.comprar:hover{
+  transition: ease-in 0.3s;
+  background-color: #C10A28;
+  border: 2px solid #C10A28;
+}
+
+.material-icons{
+  font-size: 80px;
+  margin-top: -250px;
+}
+.directcardapio{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  cursor: pointer;
+}
+.directcardapio p{
+  margin-bottom: -10px;
+}
+/*main1*/
+.main1{
+  background-image: url(../images/bgqueridas.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 150px;
+  padding-bottom: 250px;
+
+}
+.pizza img{
+  width: 70%;
+}
+@media (max-width: 680px) {
+  .pizza img{
+    width:  70%;
+  }
+}
+@media (max-width: 600px) {
+  .pizza img{
+    width:  70%;
+
+  }
+}
+.pizza h3{
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-transform: uppercase;
+}
+.pizza h4{
+  margin-top: -20px;
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-transform: uppercase;
+}
+.queridinhas{
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-transform: uppercase;
+}
+/*main 02*/
+.main2{
+  min-height: 1000px;
+  background-image: url(../images/bgcardapio3.png);
+  background-position: top;
+  background-size: cover;
+  margin-bottom: -20px;
+  padding-bottom: 50px;
+}
+.cardapiotitulo h2{
+  margin-top: 200px;
+  font-size: 120px;
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-transform: uppercase;
+}
+@media (max-width: 600px) {
+  .cardapiotitulo h2{
+    margin-top: 20%;
+    font-size: 80px;
+  }
+}
+.cardapiocol h4{
+  font-size: 50px;
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-transform: uppercase;
+}
+.linha{
+  height: 2px;
+  width: 30%;
+  margin-left: 35%;
+  background-color: white;
+  margin-top: -10px;
+}
+.itenscardapio{
+  margin-left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.cardapiocol ul li span{
+  font-size: 30px;
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-transform: uppercase;
+}
+.cardapiocol ul li{
+  font-size: 20px;
+  color:#ccc;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-transform: uppercase;
+}
+/*PREÇO E TAMANHO*/
+.tipo{
+  padding: 0px;
+  font-size: 150px;
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.preco {
+  margin-top: -200px;
+  font-size: 60px;
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-transform: uppercase;
+}
+.preco span{
+  font-size: 25px;
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-transform: uppercase;
+}
+.tamanho{
+  margin-top: -130px;
+  font-size: 25px;
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-transform: uppercase;
+}
+
+.pizzastamanhos{
+  width: 80%;
+  margin-top: 100px;
+}
+.hide-on-large-only .boxpizzastamanhos img{
+  margin-left: 30px;
+}
+
+
+
+/*FOOTER */
+
+.footer1 i{
+  font-size: 50px;
+  padding: 50px 20px;
+  color: #313131;
+  cursor: pointer;
+}
+.footer1 i:hover{
+
+  color: #dfdfdf;
+}
+.footer2 img{
+  margin-top: -20px;
+  cursor: pointer;
+}
+.enderecos p{
+  font-size: 20px;
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-transform: uppercase;
+}
+.enderecos p span{
+  color: red;
+}
+.footer3{
+  padding: 10px 0px;
+  background-color: #2a2a2a;
+  color: white;
+  text-transform: uppercase;
+}
+/*PAGINA DE CONTATOS*/
+/*CONTATOS*/
+.boxcontatos {
+  color: white;
+  font-family: 'kanit', sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.boxcontatos .titulo{
+  margin-bottom: -50px;
+  color: #FFC900;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.boxcontatos span{
+  color: #FFC900;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 800;
+}
+@media (max-width: 460px){
+  .email{
+    font-size: 19px;
+  }
+}
+
+
+
+/*ENDEREÇOS*/
+.boxendereco{
+  color: white;
+  font-family: 'kanit', sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+}
+.boxendereco .titulo{
+  margin-bottom: -50px;
+  color: #FFC900;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 800;
+}
+.boxendereco span{
+  color: #FFC900;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+/*REDE SOCIAIS*/
+.boxredessociais a i{
+  color: #e4e4e4;
+  padding: 0px 10px;
+  font-size: 50px;
+  font-weight: 700;
+}
+.boxredessociais a i:hover{
+  color: #FFC900;
+  
+}
+.boxredessociais .titulo{
+  margin-bottom: -50px;
+  color: #FFC900;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 800;
+}
